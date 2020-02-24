@@ -38,6 +38,7 @@ V(current) = V(previous) + a*t   for each axis. Than using pythagoras on the val
 A huge drawback would be that this process would have to be perpetual, even if the device is not moving. Will make fitting the rest of the program in between trickier if it has to grow. Also any errors are constantly growing.
 
 I am currently considering not using the accelerometer and having the device start it's life as a floor mounted unit to avoid movement. This would still use the gyroscope, only need one ToF module and also use a combination of motors to rotate and raise the line of sight. It would likely start pointing down so we can use trig to obtain the height from the floor (unit could be mounted on a tripod, or on the floor directly without needing to know it's initial height offset. 
+
 Height of device = ToF distance reading * Cos(vertical angle of ToF from pointing straight down)
 
 ### Arduino Build
