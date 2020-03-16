@@ -1,0 +1,7 @@
+ToF Problems 2D_1 - The first example will result in an interpretation of a diagonal wall connecting the previous and next vector, but obviously this is not the case.
+This could be minimized by using a smaller angle between paired readings, although not too small so as to become victim to limited 
+sensitivity and accuracy of hardware.
+
+ToF Problems 2D_2 - The second example will also result in an interpretation of a diagonal wall to connect the vertically higher and lower vectors.
+Would need to take more horizontal passes of readings (ie: a smaller angle per pass) to minimize this, although without moving the device to a
+different position this would not be totally removed.
