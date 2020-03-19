@@ -1,2 +1,2 @@
-# RDDF_Arduino
-Arduino components of Room Distance/Dimension Finder project
+# RDDF_Planning
+Planning phase of Room Distance/Dimension Finder project
